@@ -4,9 +4,9 @@
 
 1) Pull the all related docker **images** :
 ```bash
-docker pull docker.elastic.co/elasticsearch/elasticsearch:8.13.4
-docker pull docker.elastic.co/kibana/kibana:8.13.4
-docker pull docker.elastic.co/logstash/logstash:8.13.4
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.17.22-arm64
+docker pull docker.elastic.co/kibana/kibana:7.17.22-arm64
+docker pull docker.elastic.co/logstash/logstash:7.17.22-arm64
 ```
 
 2) Write the **Docker Compose** file :
